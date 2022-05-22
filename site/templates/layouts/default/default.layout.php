@@ -94,7 +94,7 @@
 		
         <?php endif; ?>
 		
-        <footer class="footer u-pt-5" id="contact">
+        <footer class="footer u-pt-5 u-pb-5 u-mb-5" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 u-pe-md-4 order-md-1 order-2">
