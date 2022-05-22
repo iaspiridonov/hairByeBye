@@ -1,0 +1,1 @@
+rsync --dry-run -rlcDvz --delete --progress --exclude-from=deploy/.rsyncignore ./ ivangr.bget.ru:~/public_html/tverkurort

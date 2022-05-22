@@ -1,0 +1,64 @@
+.navbar {
+    
+    &__logo {
+        width: 150px;
+    }
+}
+
+@media (min-width: $md) {
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+        &__list {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        &__item {
+            margin: 0 15px;
+            
+            @media (min-width: $lg) {
+                margin: 0 20px;
+            }
+            
+            @media (min-width: $xl) {
+                margin: 0 30px;
+            }
+        }
+        
+        &__link {
+            color: $color-text;
+            font-size: 20px;
+            font-weight: 400;
+            
+            &--active {
+                font-weight: 700;
+            }
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+        &__logo {
+            width: 120px;
+            
+            @media (min-width: $lg) {
+                width: 200px;
+            }
+            
+            @media (min-width: $xl) {
+                width: 240px;
+            }
+            
+            @media (min-width: $xxl) {
+                width: 240px;
+            }
+        }
+    }   
+}

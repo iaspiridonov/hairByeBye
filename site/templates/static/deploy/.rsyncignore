@@ -1,0 +1,19 @@
+# Ignore IDE specific folders
+.vscode/
+.idea/
+
+# Ignore VCS
+.git/
+
+# Ignore assets that should only be changed on live site
+site/assets/cache
+site/assets/session
+
+# Ignore development files and folders
+site/node_modules/
+site/config-dev.php
+LICENSE.TXT
+README.md
+CONTRIBUTING.md
+
+site/modules/.*/

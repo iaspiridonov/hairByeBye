@@ -1,0 +1,6 @@
+.DS_Store
+/site/assets/cache
+/site/assets/sessions
+/site/assets/logs
+/site/assets/backups
+/site/config-dev.php

@@ -1,0 +1,95 @@
+.blog-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    @media (min-width: $sm) {
+        flex-direction: row;
+    }
+    
+    @media (min-width: $lg) {
+        align-items: center;
+    }
+    
+    &__img {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 15px;
+        
+        & img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+        
+        @media (min-width: $sm) {
+            width: 200px;
+            min-width: 200px;
+            margin-right: 20px;
+            margin-bottom: 0;
+        }
+        
+        @media (min-width: $md) {
+            margin-right: 30px;
+            width: 200px;
+            min-width: 200px;
+        }
+        
+        @media (min-width: $lg) {
+            margin-right: 70px;
+            width: 250px;
+            min-width: 250px;
+        }
+        
+        &--big {
+            
+            @media (min-width: $lg) {
+                margin-right: 70px;
+                width: 320px;
+                min-width: 320px;
+            }
+        }
+    }
+    
+    &__title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 8px;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    &__date {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+    
+    &__description {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        
+        @media (min-width: $lg) {
+            margin-bottom: 30px;
+        }
+    }
+    
+    &__content {
+        font-size: 16px;
+        font-weight: 400;
+        
+        @media (min-width: $md) {
+            font-size: 20px;
+        }
+        
+        & h1, h2, h3, h4, h5, h6 {
+            text-align: left;
+        }
+    }
+}

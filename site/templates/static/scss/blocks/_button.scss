@@ -1,0 +1,26 @@
+.button {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 8px 25px;
+    background-color: $color-primary;
+    color: #000;
+    transition: .3s;
+    
+    @media (min-width: $md) {
+        font-size: 20px;
+    }
+    
+    &:hover {
+        background-color: $color-primary-hover;
+    }
+    
+    &--white {
+        background-color: #fff;
+        
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}

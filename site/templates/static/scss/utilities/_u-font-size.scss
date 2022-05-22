@@ -1,0 +1,25 @@
+.u-font-size-24 {
+	font-size: 24px !important;
+}
+
+.u-font-size-20 {
+	font-size: 20px !important;
+}
+
+.u-font-size-18 {
+	font-size: 18px !important;
+}
+
+.u-font-size-14 {
+	font-size: 14px !important;
+}
+
+.u-font-size-0 {
+	font-size: 0;
+}
+
+.u-font-size-sm-32 {
+	@media (min-width: $sm) {
+		font-size: 32px !important;	
+	}
+}

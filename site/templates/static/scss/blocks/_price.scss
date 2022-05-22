@@ -1,0 +1,37 @@
+.price {
+    background-color: $color-primary;
+    padding: 15px 20px;
+    
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__name {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    
+    &__duration {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    
+    &__cost {
+        font-weight: 600;
+        font-size: 32px;
+        
+        @media (min-width: $md) {
+            font-size: 40px;
+        }
+    }
+    
+    &__description {
+        font-weight: 300;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}

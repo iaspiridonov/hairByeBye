@@ -1,0 +1,14 @@
+.text-primary {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $color-text !important;
+    
+    & b, & strong {
+        font-weight: 500;
+    }
+    
+    & p {
+        margin: 0 !important;
+    }
+}
