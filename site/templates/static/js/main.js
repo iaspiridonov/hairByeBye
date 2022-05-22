@@ -5,7 +5,7 @@ $(document).ready(function () {
 			{
 				"position": "bottom",
 				"content": [
-					"<a target='_blank' class='u-mx-3' href='#'><img src='site/templates/static/img/icon/ico-inst.png'></a><a target='_blank' class='u-mx-3' href='#'><img src='site/templates/static/img/icon/ico-fb.png'></a><a target='_blank' class='u-mx-3' href='#'><img src='site/templates/static/img/icon/ico-tg.png'></a><a target='_blank' class='u-mx-3' href='#'><img src='site/templates/static/img/icon/ico-wh.png'></a>"
+					"<a target='_blank' class='u-mx-3' href='#'><img src='/site/templates/static/img/icon/ico-inst.png'></a><a target='_blank' class='u-mx-3' href='#'><img src='/site/templates/static/img/icon/ico-fb.png'></a><a target='_blank' class='u-mx-3' href='#'><img src='/site/templates/static/img/icon/ico-tg.png'></a><a target='_blank' class='u-mx-3' href='#'><img src='/site/templates/static/img/icon/ico-wh.png'></a>"
 				]
 			},
 			"close"
@@ -15,7 +15,7 @@ $(document).ready(function () {
 			"fullscreen"
 		],
 		navbar: {
-			title: "<img class='navbar__logo' src='site/templates/static/img/logo.svg' alt='logo'><a href='#js-page' class='mmenu-close'><img src='site/templates/static/img/icon/ico-close.svg' alt='close'></a>"
+			title: "<img class='navbar__logo' src='/site/templates/static/img/logo.svg' alt='logo'><a href='#js-page' class='mmenu-close'><img src='/site/templates/static/img/icon/ico-close.svg' alt='close'></a>"
 		},
 	},
 	{

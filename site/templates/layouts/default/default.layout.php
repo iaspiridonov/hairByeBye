@@ -38,7 +38,7 @@
 											<li class="navbar__item"><a href="<?= $p->url ?>" class="navbar__link <?= $page->url === $p->url ? 'navbar__link--active' : '' ?>"><?= $p->title ?></a></li>
 										<?php endif; ?>
 									<?php endforeach; ?>
-                                    <li class="navbar__item"><a href="#contact" class="navbar__link">Contact</a></li>
+                                    <li class="navbar__item u-d-md-inline-block u-d-none"><a href="#contact" class="navbar__link">Contact</a></li>
                                 </ul>
                             </nav>
                             <a class="mburger u-d-block u-d-md-none" href="#js-main-menu">
